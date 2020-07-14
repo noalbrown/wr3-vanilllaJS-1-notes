@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla JS 1 Lecture</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <section id="awesome-section">This is my awesome section
         <ul id="my-list">
-            <h4>Things I think are awesome</h4>
+            <h4 id="title">Things I think are awesome</h4>
             <li class="awesome-thing">Tigers</li>
             <li class="awesome-thing">Sharks</li>
             <li class="awesome-thing">Aspen Trees</li>
             <li class="awesome-thing">Smell of Orange Blossoms</li>
         </ul>
     </section>
-    <hr/>
+    <hr />
     <form>
-        <input type="text" id="my-input"/>
-        <button id='submit-btn'>Submit</button>
+        <input value="Hello!" type="text" id="my-input" />
+        <button onclick="sayHello()" id='submit-btn'>Submit</button>
     </form>
-    <hr/>
+    <hr />
     <div class="div-one"></div>
 </body>
 <script src="index.js"></script>
+
 </html>
